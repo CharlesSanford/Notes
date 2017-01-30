@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="wrap_content"
     android:id="@+id/list_item_note"
-    android:background="@android:color/white">
+    android:background="@android:color/white"
+    android:descendantFocusability="blocksDescendants">
 
     <TextView
         android:text="TextView"
@@ -30,5 +31,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:paddingLeft="15dp"
-        android:paddingRight="15dp" />
+        android:paddingRight="15dp"
+        android:textColor="@android:color/background_dark" />
 </RelativeLayout>

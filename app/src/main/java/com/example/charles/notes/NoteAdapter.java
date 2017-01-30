@@ -31,6 +31,8 @@ public class NoteAdapter extends BaseAdapter {
         mNotes = notes;
         mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
+
+
     @Override
     public int getCount() {
         if (mNotes == null) {
